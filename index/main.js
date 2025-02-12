@@ -26,12 +26,9 @@ if (!isUpWeek) {
   topWeek.style.display = 'flex';
   weekTypeText.textContent = 'верхняя';
 }
-console.log('toggleString: ', toggleString);
 
 // Перелючалка недель
 const toggleWeek = () => {
-  console.log('Произошел клик!');
-  console.log('toggleString: ', toggleString);
 
   if (!isUpWeek) {
     downWeek.style.display = 'none';
